@@ -8,7 +8,7 @@ void testnums(unsigned long long int hail){
     while(hail!= 0){
         hail = testHail(hail); //Within helper.h file, testHail returns the next hailstone number, or 0 if you get to 4
     }
-    cout << orghail << endl;
+    cout << orghail << endl; //This is a test commit
 }
 int main(){
     unsigned long long int counter = 10000;

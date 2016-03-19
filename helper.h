@@ -8,7 +8,8 @@
 using namespace std;
 
 
-unsigned long long int testHail(unsigned long long int num){
+unsigned long long int testHail(unsigned long long int num){ //Following statements follow the rules of Hailstone numbers
+															//It returns the next number in the sequence, reverting to zero once it reaches 4
     if (num == 4){
         return 0;
     }
